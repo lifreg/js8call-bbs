@@ -96,6 +96,19 @@ class JS8BulletinBoard:
         self.root = root
         self.root.title("JS8Call Bulletin Board")
         self.root.geometry("800x650")
+
+        # Définir l'icône de la fenêtre
+        try:
+            if os.path.exists('icon.ico'):
+                self.root.iconbitmap('icon.ico')
+            elif os.path.exists(os.path.join(os.path.dirname(__file__), 'icon.ico')):
+                # Si l'icône est dans le même dossier que le script
+                icon_path = os.path.join(os.path.dirname(__file__), 'icon.ico')
+                self.root.iconbitmap(icon_path)
+        except Exception as e:
+            # Si l'icône ne peut pas être chargée, on continue sans erreur
+            print(f"Impossible de charger l'icône: {e}")
+
         
         # Variables - LIMITE CONFIGURABLE
         self.max_chars_options = {
