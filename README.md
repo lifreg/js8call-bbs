@@ -4,16 +4,24 @@
  📋 Table of Contents
 
 Features
+
 Screenshots
+
 Requirements
 Installation
+
 Configuration
 Usage
+
 Use Cases
 How It Works
+
 Configuration File
 Troubleshooting
+
 Contributing
+
 License
+
 Acknowledgments
 
