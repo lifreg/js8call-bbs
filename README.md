@@ -8,7 +8,7 @@
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Features](#features)
 - [Screenshots](#screenshots)
@@ -26,26 +26,26 @@
 
 ---
 
-## ✨ Features
+## Features
 
-- **📡 Automated Transmission** - Schedule periodic message broadcasts
-- **⏰ Flexible Scheduling** - Multiple interval options:
+- ** Automated Transmission** - Schedule periodic message broadcasts
+- ** Flexible Scheduling** - Multiple interval options:
   - Fixed intervals (10 min to 24 hours)
   - Even/odd hours scheduling
-- **🎨 Modern Dark Theme GUI** - Easy on the eyes for long operating sessions
-- **💾 Save/Load Configurations** - Store bulletin messages and settings
-- **🚀 Auto-start Option** - Start transmissions automatically on launch
-- **🔧 Configurable Settings**:
+- ** Modern Dark Theme GUI** - Easy on the eyes for long operating sessions
+- ** Save/Load Configurations** - Store bulletin messages and settings
+- ** Auto-start Option** - Start transmissions automatically on launch
+- ** Configurable Settings**:
   - Message length limits (70-500+ characters)
   - Custom frequency or auto-detect from JS8Call
   - TCP connection settings
-- **📊 Real-time Monitoring**:
+- ** Real-time Monitoring**:
   - Character counter with visual feedback
   - Transmission duration estimates
   - Activity log with timestamps
   - Next transmission countdown
-- **🔄 Manual Override** - Send messages immediately when needed
-- **🌐 Network Flexibility** - Connect to local or remote JS8Call instances
+- ** Manual Override** - Send messages immediately when needed
+- ** Network Flexibility** - Connect to local or remote JS8Call instances
 
 ---
 
@@ -138,7 +138,7 @@ python3 js8_bulletin_autostart.py
 
 ---
 
-## 🚀 Usage
+## Usage
 
 ### Creating a Bulletin Message
 
@@ -158,21 +158,21 @@ python3 js8_bulletin_autostart.py
 
 ### Starting/Stopping
 
-- **▶ Start Transmissions** - Start automatic broadcasts
-- **⏹ Stop** - Stop automatic broadcasts
-- **📡 Send Now** - Send message immediately (manual override)
+- ** Start Transmissions** - Start automatic broadcasts
+- ** Stop** - Stop automatic broadcasts
+- ** Send Now** - Send message immediately (manual override)
 
 ### Saving Your Work
 
-- **💾 Save** - Save current message and settings
-- **💾 Save As...** - Save as new file
-- **📂 Open** - Load saved configuration
+- ** Save** - Save current message and settings
+- ** Save As...** - Save as new file
+- ** Open** - Load saved configuration
 
 Files are saved in JSON format with all settings preserved.
 
 ---
 
-## 📻 Use Cases
+## Use Cases
 
 ### Emergency Communications (EMCOMM)
 
@@ -189,7 +189,7 @@ Check-ins welcome
 ### Net Announcements
 
 ```
-📻 FRENCH HF NET
+FRENCH HF NET
 Every Sunday 1400Z on 7.078 MHz
 All stations welcome - Slow speed
 Topic: Emergency preparedness
@@ -215,7 +215,7 @@ Info: www.clubradio.fr
 
 ---
 
-## 🔬 How It Works
+## How It Works
 
 ### Architecture
 
@@ -262,7 +262,7 @@ Info: www.clubradio.fr
 
 ---
 
-## 📁 Configuration File
+## Configuration File
 
 Settings are automatically saved in `js8_bulletin_last.json`:
 
@@ -283,7 +283,7 @@ Settings are automatically saved in `js8_bulletin_last.json`:
 
 ---
 
-## 🔍 Troubleshooting
+## Troubleshooting
 
 ### JS8Call Connection Issues
 
@@ -294,7 +294,7 @@ Settings are automatically saved in `js8_bulletin_last.json`:
 2. Check TCP Server API is enabled:
    - File → Settings → Reporting → Enable TCP Server API
 3. Confirm port number (default 2442)
-4. Test with **🔄 Reconnect** button
+4. Test with **Reconnect** button
 5. Check firewall settings if using remote connection
 
 ### Messages Not Transmitting
@@ -323,7 +323,7 @@ Settings are automatically saved in `js8_bulletin_last.json`:
 **Problem**: Transmissions don't start automatically
 
 **Solutions**:
-1. Check **⚙️ Settings** → Autostart is enabled
+1. Check **Settings** → Autostart is enabled
 2. Ensure message is loaded and valid
 3. Verify JS8Call connection before app launch
 4. Check activity log for autostart messages
@@ -350,7 +350,7 @@ Then restart js8call-bbs.
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Here's how you can help:
 
@@ -395,7 +395,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 ### Projects & Developers
 
@@ -423,13 +423,13 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ---
 
-## 🌟 Star History
+## Star History
 
 If you find this project useful, please consider giving it a ⭐ on GitHub!
 
 ---
 
-## 📚 Additional Resources
+## Additional Resources
 
 ### JS8Call Documentation
 - Official website: https://js8call.com
